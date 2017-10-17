@@ -1,3 +1,4 @@
+// studi kasus if-else statement, constanta dan repeat-until di bahasa pascal
 program SIP;
 var
 	respon,nama,nip,gol: String;
