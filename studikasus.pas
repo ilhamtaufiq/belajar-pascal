@@ -1,19 +1,19 @@
 program hitung_luas;
 
 var radius,panjang,lebar,LPersegi,LPersegiPanjang,sisi,alas,tinggi: Integer;
-	pil: Char;
-	respon: String;
+	pil: Char; //Pilihan
+	respon: String; //Respon untuk mengulangi ketika terjadi kesalahan input
 	Lingkaran, Segitiga: Real;
 const
-	pi = 3.14;
+	pi = 3.14; //Nilai pi (lingkaran)
 begin
 repeat
-	writeln('==========');
+	writeln('=====[Menghitung Luas Sebuah Bangun Datar]=====');
 	writeln('a. Menghitung Luas Persegi');
 	writeln('b. Menghitung Luas Persegi Panjang');
 	writeln('c. Menghitung Luas Lingkaran');
 	writeln('d. Menghitung Luas Segitiga');
-	writeln('==========');
+	writeln('===============================================');
 	write('Silahkan pilih salah satu = ');readln(pil);
 
 	if pil='a' then 
