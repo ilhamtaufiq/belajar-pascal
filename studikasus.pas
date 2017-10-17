@@ -1,7 +1,8 @@
 program hitung_luas;
 
 var radius,panjang,lebar,LPersegi,LPersegiPanjang,sisi,alas,tinggi: Integer;
-	pil,respon: Char;
+	pil: Char;
+	respon: String;
 	Lingkaran, Segitiga: Real;
 const
 	pi = 3.14;
@@ -52,5 +53,5 @@ repeat
 		writeln('Pilihan yang anda masukkan salah, ulangi?');
 		write('ya/tidak = ');readln(respon);
 	end;
-	until respon = 'tidak' or; respon = 'Tidak';
+	until (respon = 'tidak') or (respon = 'Tidak')
 end.
